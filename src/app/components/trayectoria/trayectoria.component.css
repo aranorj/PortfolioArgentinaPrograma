@@ -8,7 +8,7 @@
     padding: 20px;
     background-color: #25195fa9;
     
-    margin: 0px 0px;
+    margin: 20px 0px 0px;
     color: black;
 }
 .experiencia__container{
@@ -17,14 +17,24 @@
     width: 100%;
     background-color: #C2C1F6;
     border-radius: 30px;
-}
-.logos{
-    display: none;
+    position: relative;
 }
 
+.experiencia__item{
+    margin-top: 20px;
+    list-style: none;
+}
+.experiencia__titulo{
+    font-size: 30px;
+}
 .experiencia__titulo, experiencia__logo{
     display: inline;
     margin: 3px;
+}
+
+.experiencia__anios{
+    display: inline;
+    font-size: 20px;
 }
 .experiencia__encabezado{
  margin-bottom: 2%;
@@ -32,11 +42,21 @@
  color: rgb(238, 233, 243);
 }
 
+.lista__cursos{
+    margin-top: 20px;
+}
 .logos__lista{
     list-style-type: none;
 }
-@media (min-width: 992px){
+@media (min-width: 821px){
     .logos{
-        display: block;
+        display: inline-block;
+      }
+    .experiencia__logo{
+        width: 240px;
+        position: absolute;
+    }
+    .experiencia__body{
+        padding-left: 300px;
     }
 }

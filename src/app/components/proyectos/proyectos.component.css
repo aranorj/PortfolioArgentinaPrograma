@@ -38,8 +38,11 @@
     background-color: #C2C1F6;
     border-radius: 30px;
     box-shadow: 10px 10px 5px #8c8c97cf;
+    position: relative;
    
 }
+
+
 
 .logos {
     display: none;
@@ -52,18 +55,23 @@ proyecto__logo {
 
 }
 
-
-.logos__lista {
-    list-style-type: none;
-}
-
 li{
     padding: 30px;
     list-style-type: none;
 }
+.proyecto__logo{
+    width: 200px;
+}
 
-@media (min-width: 992px) {
+@media (min-width: 820px) {
     .logos {
         display: block;
     }
+
+    .proyecto__body{
+        margin-left: 250px;
+        }
+        .proyecto__logo{
+           position:absolute;
+        }
 }
