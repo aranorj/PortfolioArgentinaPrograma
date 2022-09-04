@@ -1,7 +1,18 @@
 .header-container{
     background-color: #00358E;
-    
+display: flex;   
+justify-content: space-around;
+
+}
+.logo{
+    flex-grow: 1;
+}
+button{
+    display: flex;
+    height: 70%;
+    align-self: center;
+    margin-right: 5px;
 }
 .redes{
-    float: right;
+    display: flex;
 }

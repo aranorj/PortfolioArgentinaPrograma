@@ -63,6 +63,12 @@ li{
     width: 200px;
 }
 
+ul{
+    margin: 0px;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+
 @media (min-width: 820px) {
     .logos {
         display: block;

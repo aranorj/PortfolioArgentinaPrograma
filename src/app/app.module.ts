@@ -14,6 +14,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { SSkillsComponent } from './components/s-skills/s-skills.component';
 import { IdiomasComponent } from './components/idiomas/idiomas.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ProyectosComponent } from './components/proyectos/proyectos.component';
     SkillsComponent,
     SSkillsComponent,
     IdiomasComponent,
-    ProyectosComponent
+    ProyectosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
